@@ -3,6 +3,7 @@ const fs = ("fs")
 const path = require("path")
 const express = require("express")
 const { Registr, Home, Log} = require("./src/controller/controller.js")
+const { log } = require("console")
 
 const app = express()
 app.use(  express.json()  )
